@@ -68,7 +68,7 @@ async function fetchJson(url) {
 
     const cw = weatherData.current_weather;
     if (!cw) {
-      console.error('Current weather data not available.');
+      console.error('Current weather data not available. sdssdsds');
       process.exit(3);
     }
 
